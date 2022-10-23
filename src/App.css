@@ -1,38 +1,179 @@
-.App {
+
+
+body {
+  background-color: black;
+  font-family: 'Noto Serif JP';
+}
+
+.Header {
+  height:100vh; width: auto;
+  text-align: center;
+  overflow: hidden;
+}
+.Header video{
+  height: auto; width: auto;
+  object-position: center;
+  object-fit: cover;
+}
+.TitleBox {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.Header div img {
+  height: auto; width: 90%;
+}
+
+.Header_SubText {
+  margin-left: 15vw;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+.TitleBox__Outline {
+  border: #48aede 2px solid;
+  width: 70vw; height: 16vw;
+  border-radius: 8vw;
+}
+.TitleBox__Inline {
+  color: #48aede;
+  font-size: 16px;
+  margin-top: 8vw;
+  font-weight: 800;
+  transform: translate(0%, -50%);
+  vertical-align: middle;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.PageBody {
+  padding-top: 24px;
+  position: relative;
+}
+.VideoPlayer {
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.PageDescription {
+  color: #fff;
+  text-align: center;
+  line-height: 2em;
+}
+.PageDescription span {
+  border-bottom: solid 1px #fff;
+}
+.BackGroundParticle {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.JumpLink {
+  font-size: 16px;
+  color: #48aede;
+  border-color: #48aede;
+  text-align: center;
+}
+
+.Bottom {
+  margin-top: 64px;
+  background-color: #191919;
+  height: 88px;
+  text-align: center;
+  padding-top: 80px;
+}
+.BottomTxt {
+  font-size: 8px;
+  color: #48aede;
+}
+
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+
+  .Header {
+    height:100vh; width: 100vw;
+    text-align: center;
+    overflow: hidden;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Header video{
+    height: 100%; width: 100vw;
+    object-position: center;
+    object-fit: cover;
   }
-  to {
-    transform: rotate(360deg);
+  .TitleBox {
+    position: absolute;
+    top: 55%;
+    transform: translate(0%, -50%);
   }
+  
+  .Header div img {
+    height: auto; width: 32%;
+  }
+  
+  .Header_SubText {
+    margin-left: 15vw;
+    margin-top: 64px;
+    margin-bottom: 16px;
+  }
+  .TitleBox__Outline {
+    border: #48aede 2px solid;
+    width: 70vw; height: 16vw;
+    border-radius: 8vw;
+  }
+  .TitleBox__Inline {
+    color: #48aede;
+    font-size: 16px;
+    margin-top: 8vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .PageBody {
+    margin-top: 0%;
+    position: relative;
+  }
+  .VideoPlayer {
+    height: 30vw; width: 53.3vw;
+  }
+  
+  .PageDescription {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 48px;
+    line-height: 2em;
+  }
+  .PageDescription span {
+    border-bottom: solid 1px #fff;
+  }
+  .BackGroundParticle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .JumpLink {
+    font-size: 24px;
+    color: #48aede;
+    border-color: #48aede;
+    text-align: center;
+  }
+  
+  .Bottom {
+    margin-top: 64px;
+    background-color: #191919;
+    height: 88px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .BottomTxt {
+    font-size: 8px;
+    color: #48aede;
+  }
+  
 }

@@ -1,0 +1,124 @@
+/*青 #48aede*/
+/*赤 #c2007b*/
+/*白 #f2f2f2*/
+
+.Header_SubText_1 {
+    margin-left: 15vw;
+    margin-top: 120px;
+    margin-bottom: 16px;
+    position: relative;
+    height: 20vw;
+  }
+  .TitleBox__Outline_1 {
+    border: #f2f2f2 2px solid;
+    width: 70vw; height: 16vw;
+    border-radius: 8vw;
+    position: absolute;
+    z-index: 3;
+  }
+  .TitleBox__Inline_1 {
+    color: #f2f2f2;
+    font-size: 16px;
+    margin-top: 8vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .TitleBox__Outline_2 {
+    border: #c2007b 2px solid;
+    width: 70vw; height: 16vw;
+    border-radius: 8vw;
+    position: absolute;
+    transform: translateX(-1px);
+  }
+  .TitleBox__Inline_2 {
+    color: #c2007b;
+    font-size: 16px;
+    margin-top: 8vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .TitleBox__Outline_3 {
+    border: #48aede 2px solid;
+    width: 70vw; height: 16vw;
+    border-radius: 8vw;
+    position: absolute;
+    transform: translateX(1px);
+  }
+  .TitleBox__Inline_3 {
+    color: #48aede;
+    font-size: 16px;
+    margin-top: 8vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+
+    .Header_SubText_1 {
+    margin-left: 35vw;
+    margin-top: 240px;
+    margin-bottom: 16px;
+    position: relative;
+    height: 6vw;
+    text-align: center;
+  }
+  .TitleBox__Outline_1 {
+    border: #f2f2f2 2px solid;
+    width: 30vw; height: 4vw;
+    border-radius: 8vw;
+    position: absolute;
+    z-index: 3;
+  }
+  .TitleBox__Inline_1 {
+    color: #f2f2f2;
+    font-size: 16px;
+    margin-top: 2vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .TitleBox__Outline_2 {
+    border: #c2007b 2px solid;
+    width: 30vw; height: 4vw;
+    border-radius: 8vw;
+    position: absolute;
+    transform: translateX(-2px);
+  }
+  .TitleBox__Inline_2 {
+    color: #c2007b;
+    font-size: 16px;
+    margin-top: 2vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .TitleBox__Outline_3 {
+    border: #48aede 2px solid;
+    width: 30vw; height: 4vw;
+    border-radius: 8vw;
+    position: absolute;
+    transform: translateX(2px);
+  }
+  .TitleBox__Inline_3 {
+    color: #48aede;
+    font-size: 16px;
+    margin-top: 2vw;
+    font-weight: 800;
+    transform: translate(0%, -50%);
+    vertical-align: middle;
+    text-align: center;
+  }
+}
